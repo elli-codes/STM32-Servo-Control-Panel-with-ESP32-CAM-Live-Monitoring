@@ -154,11 +154,7 @@ Security note: The password in this project is hard-coded in the Python source c
 
 Three buttons are provided in the GUI:
 
-┌───────────────────────────────────────────────┐
-│                                               │
-│       [ 0 degree ] [ 90 degree ] [180 degree]│
-│                                               │
-└───────────────────────────────────────────────┘
+
 
 Each button sends a different command to the STM32.
 
