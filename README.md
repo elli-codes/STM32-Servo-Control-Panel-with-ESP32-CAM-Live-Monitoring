@@ -333,18 +333,6 @@ Conceptually:
 
 HTTP/MJPEG Stream
 
-┌──────────── Header ────────────┐
-│ Content-Length: XXXXX          │
-└────────────────────────────────┘
-                │
-                ▼
-        JPEG Frame Data
-┌────────────────────────────────┐
-│                                │
-│          JPEG IMAGE            │
-│                                │
-└────────────────────────────────┘
-
 The JPEG data is extracted using:
 
 image_data = BytesIO(part1)
